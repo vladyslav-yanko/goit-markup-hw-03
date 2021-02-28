@@ -1,0 +1,209 @@
+:root {
+  --body-color: #757575;
+  --headlines-color: #212121;
+  --primary-white-color: #ffffff;
+  --secondary-color: #2196f3;
+  --contact-color: #757575;
+  --background-color-button: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--body-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration-line: none;
+}
+
+/* =========== HEADER =========== */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  color: var(--headlines-color);
+}
+
+.login-color {
+  color: var(--secondary-color);
+}
+
+.class-li {
+  list-style: none;
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--headlines-color);
+}
+
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--secondary-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--contact-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--secondary-color);
+}
+
+/* ============== Main ============== */
+
+/* ============== HERO ============== */
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: #ffffff; */
+}
+
+.button-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  background-color: var(--secondary-color);
+  color: var(--primary-white-color);
+}
+
+/* ============== Benefits ============== */
+
+.benefits-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--headlines-color);
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ============== What are we doing ============== */
+
+.title-secondary {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--headlines-color);
+}
+
+/* ============== our team ============== */
+
+.name-personal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: var(--headlines-color);
+}
+
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* ============== footer ============== */
+
+.login-footer {
+  /* color: var(--primary-white-color); */
+}
+
+.footer-adres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+
+  /* color: var(--primary-white-color); */
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* ============== portfolio ============== */
+
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+
+  color: var(--headlines-color);
+  background-color: var(--background-color-button);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--headlines-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--body-color);
+}
+
+.portfolio-card {
+  text-decoration-line: none;
+}
