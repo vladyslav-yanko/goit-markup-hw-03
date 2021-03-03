@@ -15,8 +15,34 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration-line: none;
+}
+
+.class-li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* =========== HEADER =========== */
@@ -33,10 +59,6 @@ body {
 
 .login-color {
   color: var(--secondary-color);
-}
-
-.class-li {
-  list-style: none;
 }
 
 .header-nav {
@@ -86,6 +108,14 @@ body {
 }
 
 .button-hero {
+  background-color: var(--secondary-color);
+  color: var(--primary-white-color);
+  border-radius: 4px;
+  border: none;
+  padding: 10px 31px;
+  width: 200px;
+  height: 50px;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -95,9 +125,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-
-  background-color: var(--secondary-color);
-  color: var(--primary-white-color);
 }
 
 /* ============== Benefits ============== */
