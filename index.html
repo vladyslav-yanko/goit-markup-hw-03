@@ -12,24 +12,26 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <header>
-    <div class="container">
+    <div class="container header-container">
       <nav>
             <a href="/" class="logo"><span class="logo-color">Web</span>Studio</a>
             
-            <ul>
-                <li class="class-li"><a href="" class="header-nav">Студия</a></li>
-                <li class="class-li"><a href="./portfolio.html" class="header-nav">Портфолио</a></li>
-                <li class="class-li"><a href="" class="header-nav">Контакты</a></li>
+            <ul class="nav-container">
+                <li class="class-li header-li"><a href="" class="header-nav">Студия</a></li>
+                <li class="class-li header-li"><a href="./portfolio.html" class="header-nav">Портфолио</a></li>
+                <li class="class-li header-li"><a href="" class="header-nav">Контакты</a></li>
             </ul>
       </nav>
 
-        <ul>
-            <li class="class-li"><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
-            <li class="class-li"><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
+        <ul class="nav-container-contact">
+            <li class="class-li header-li"><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
+            <li class="class-li header-li"><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
         </ul>
     </div>
     </header>
+
     <main>
     <!-- Hero -->
     <section>
@@ -43,20 +45,20 @@
     <section class="section no-padding-bottom">
        <div class="container">
             <!-- <h2>Преимущества</h2> -->
-            <ul>
-                <li class="class-li">
+            <ul class="benefits-container">
+                <li class="class-li benefits-li">
                     <h3 class="benefits-h">Внимание к деталям</h3>
                     <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li benefits-li">
                     <h3 class="benefits-h">Пунктуальность</h3>
                     <p class="benefits-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li benefits-li">
                     <h3 class="benefits-h">Планирование</h3>
                     <p class="benefits-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li benefits-li">
                     <h3 class="benefits-h">Современные технологии</h3>
                     <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -68,10 +70,10 @@
     <section class="section">
         <div class="container">
             <h2 class="title-secondary">Чем мы занимаемся</h2>
-            <ul>
-                <li class="class-li"><img src="./image/what-are-we-doing/img.jpg" alt="Человек печатает на планшете" width="370" height="294"></li>
-                <li class="class-li"><img src="./image/what-are-we-doing/img-1.jpg" alt="Человек печатает на ноутбуке" width="370" height="294"></li>
-                <li class="class-li"><img src="./image/what-are-we-doing/img-2.jpg" alt="Человек рисует на планшете" width="370" height="294"></li>
+            <ul class="photo-container">
+                <li class="class-li photo-li"><img src="./image/what-are-we-doing/img.jpg" alt="Человек печатает на планшете" width="370" height="294"></li>
+                <li class="class-li photo-li"><img src="./image/what-are-we-doing/img-1.jpg" alt="Человек печатает на ноутбуке" width="370" height="294"></li>
+                <li class="class-li photo-li"><img src="./image/what-are-we-doing/img-2.jpg" alt="Человек рисует на планшете" width="370" height="294"></li>
             </ul>
         </div>
     </section>
@@ -80,23 +82,23 @@
     <section class="section">
         <div class="container">
             <h2 class="title-secondary">Наша команда</h2>
-            <ul>
-                <li class="class-li">
+            <ul class="our-team-container">
+                <li class="class-li our-team-li">
                     <img src="./image/our-team/igor.jpg" alt="дизайнер Игорь" width="270" height="260">
                     <h3 class="name-personal">Игорь Демьяненко</h3>
                     <p lang="en" class="our-team-text">Product Designer</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li our-team-li">
                     <img src="./image/our-team/olga.jpg" alt="программист Ольга" width="270" height="260">
                     <h3 class="name-personal">Ольга Репина</h3>
                     <p lang="en" class="our-team-text">Frontend Developer</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li our-team-li">
                     <img src="./image/our-team/nikolay.jpg" alt="маркетолог Николай" width="270" height="260">
                     <h3 class="name-personal">Николай Тарасов</h3>
                     <p lang="en" class="our-team-text">Marketing</p>
                 </li>
-                <li class="class-li">
+                <li class="class-li our-team-li">
                     <img src="./image/our-team/michael.jpg" alt="дизайнер Михаил" width="270" height="260">
                     <h3 class="name-personal">Михаил Ермаков</h3>
                     <p lang="en" class="our-team-text">UI Designer</p>
@@ -111,7 +113,7 @@
         <div class="container footer-margin">
             <a href="/" class="logo"><span class="logo-color">Web</span><span class="logo-footer">Studio</span></a>
             <address>
-                <ul>
+                <ul class="address-contact">
                     <li class="class-li"><a href="https://goo.gl/maps/QvJAkb335SzxtevH7" rel="noopener noofollow" target="_blank"
                             class="footer-adres">г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li class="class-li"><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
@@ -119,6 +121,7 @@
                 </ul>
             </address>
         </div>
-    </footer>    
+    </footer>   
+
 </body>
 </html>
